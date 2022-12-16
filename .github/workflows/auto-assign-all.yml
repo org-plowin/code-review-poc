@@ -10,5 +10,6 @@ jobs:
               uses: pozil/auto-assign-issue@v1
               with:
                   teams: team-plowin
+                  repo-token: ${{ secrets.TEST_TOKEN }}
                   numOfAssignee: 1
                   allowSelfAssign: true
