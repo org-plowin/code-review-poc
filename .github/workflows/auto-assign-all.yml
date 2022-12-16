@@ -9,6 +9,6 @@ jobs:
             - name: 'Auto-assign issue'
               uses: pozil/auto-assign-issue@v1
               with:
-                  assignees: b1tamara,plowin,stefanlay
+                  teams: team-plowin
                   numOfAssignee: 1
                   allowSelfAssign: true
