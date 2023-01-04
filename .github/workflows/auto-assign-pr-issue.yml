@@ -11,6 +11,8 @@ jobs:
       - uses: wow-actions/auto-assign@v3
         with:
           GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
+          addReviewers: true
+          addAssignees: true
           # Team contains b1tamara,plowin,stefanlay
           reviewers: |
             org-plowin/team-plowin
