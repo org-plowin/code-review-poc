@@ -21,3 +21,4 @@ jobs:
           numberOfReviewers: 1
           numberOfAssignees: 1
           skipKeywords: wip, draft
+          excludeLabels: dependencies, wip
